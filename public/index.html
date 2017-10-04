@@ -13,10 +13,50 @@
     <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
     <title>Elm App</title>
 </head>
+<style type="text/css">
+    .legend {
+        width: 500px;
+        height: 20px;
+        padding: 0px;
+        border-width: 0px;
+        border-collapse: collapse;\
+    }
+
+    .legend .color {
+        width: 20%;
+        height: 50%;
+        padding: 0px;
+        border-style: solid;
+        border-width: 1px;
+    }
+
+    .legend .label {
+        height: 50%;
+        padding: 0px;
+        border-style: solid;
+        border-width: 1px;
+        border-bottom-style: none;
+        font-size: 8px;
+        text-align: left;
+    }
+
+    .legend .label.last {
+        height: 50%;
+        padding: 0px;
+        border-style: solid;
+        border-width: 1px;
+        border-bottom-style: none;
+        border-right-style: none;
+        border-top-style: none;
+        font-size: 8px;
+        text-align: left;
+    }
+</style>
 <body>
     <noscript>
         You need to enable JavaScript to run this app.
     </noscript>
+
     <div id="root"></div>
 </body>
 </html>
